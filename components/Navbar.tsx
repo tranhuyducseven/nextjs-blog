@@ -34,6 +34,11 @@ export const Navbar = () => {
                 Contact us
               </a>
             </Link>
+            <Link href="/login">
+              <a className="ml-5 lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white">
+                Login
+              </a>
+            </Link>
           </div>
         </div>
       </nav>
